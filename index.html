@@ -3,17 +3,41 @@
         <meta charset="utf-8" />
         <title>Valentin Woehrel - Links</title>
         <link rel="stylesheet" href="./index.css">
+        <script src="https://kit.fontawesome.com/6719d916ac.js" crossorigin="anonymous"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                VANTA.HALO({
+                    el: "#vanta",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    backgroundColor: 0x0
+                })
+            });
+        </script>
     </head>
     <body>
-        <header id="header-section">
-            <img src="./assets/valentin.JPG" alt="Valentin's face" id="img-val">
-            <h1 id="title">Valentin Woehrel</h1>
-        </header>
-        <section id="links-section">
-            <a href="">Official Website</a>
-            <a href="">Twitter</a>
-            <a href="">Twitch</a>
-            <a href="">GitHub</a>
-        </section>
+        <div id="vanta"></div>
+        <div id="content">
+            <header id="header-section">
+                <img src="./assets/valentin.jpg" alt="Valentin's face" id="img-val">
+                <h1 id="title">Valentin Woehrel</h1>
+            </header>
+            <section id="links-section">
+                <a href="https://github.com/Val1t3"><i class="fa-solid fa-house"></i></i> Official Website</a>
+                <a href="https://twitter.com/Valent1W"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                <a href="https://twitter.com/Valent1W"><i class="fa-brands fa-twitch"></i> Twitch</a>
+                <a href="https://github.com/Val1t3"><i class="fa-brands fa-github"></i> GitHub</a>
+            </section>
+        </div>
     </body>
 </html>
