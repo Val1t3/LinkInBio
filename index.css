@@ -1,0 +1,43 @@
+html {
+    background: grey;
+}
+
+/* HEADER SECTION */
+
+#header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-val {
+    width: 10em;
+    height: 9.4em;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+
+#title {
+    background: #131311;
+    color: white;
+    font-weight: bold;
+    padding: 0.3em 0.6em;
+    border-radius: 0.5em;
+    border: solid white 2px;
+}
+
+
+/* LINKS SECTION */
+
+#links-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    width: 100%;
+    background: white;
+    margin-top: 1.50em;
+    text-align: center;
+}
