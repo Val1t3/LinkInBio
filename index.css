@@ -1,5 +1,6 @@
 html {
-    background: grey;
+    background: url("./assets/background.jpg");
+    background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
     overflow-y: hidden;
 }
@@ -37,16 +38,16 @@ html {
 #img-val {
     width: 10em;
     border-radius: 100%;
-    border: solid white 2px;
+    border: solid #241e38 2px;
 }
 
 #title {
-    background: rgba(19, 19, 17, 0.75);
+    background: rgba(42, 33, 64, 0.3);
     color: white;
     font-weight: bold;
     padding: 0.3em 0.6em;
     border-radius: 0.5em;
-    border: solid white 2px;
+    border: solid #241e38 2px;
 }
 
 
@@ -63,8 +64,8 @@ html {
 a {
     width: 80%;
     max-width: 480px;
-    background: rgba(255, 255, 255, 0.7);
-    color: black;
+    background: rgba(36, 30, 56, 0.3);
+    color: #ececec;
     margin-top: 3em;
     text-align: center;
     padding-block: 1.5em;
@@ -75,7 +76,7 @@ a {
 }
 
 a:hover {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(36, 30, 56, 1);
 }
 
 
